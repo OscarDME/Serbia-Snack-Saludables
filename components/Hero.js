@@ -69,13 +69,13 @@ export default function Hero() {
           </a>
 
           <div className="mt-5 flex items-center gap-2 text-sm text-[#6B4A35]">
-            <span className="flex" aria-label="5 estrellas">
+            <span className="flex" aria-label={hero.starsAriaLabel}>
               {Array.from({ length: 5 }).map((_, i) => (
                 <span key={i} className="text-[#FFB23F]">★</span>
               ))}
             </span>
             <span className="font-semibold">5.0</span>
-            <span>· +5,000 familias satisfechas</span>
+            <span>· {hero.socialProof}</span>
           </div>
         </div>
 
