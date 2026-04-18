@@ -44,6 +44,14 @@ export default function WhatYouGet() {
             {whatYouGet.footnote.line3}
           </p>
         </div>
+
+        <div className="mt-12 flex justify-center">
+          <img
+            src="/mockup-cta.webp"
+            alt={whatYouGet.headline}
+            className="w-full max-w-md rounded-2xl drop-shadow-xl"
+          />
+        </div>
       </div>
     </section>
   );

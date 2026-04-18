@@ -39,6 +39,14 @@ export default function Closing() {
           </span>
         </div>
 
+        <div className="mx-auto mt-8 max-w-sm">
+          <img
+            src="/mockup-cta.webp"
+            alt={closing.headline}
+            className="w-full drop-shadow-2xl"
+          />
+        </div>
+
         <a
           href={checkoutUrl}
           onClick={handleClick}
